@@ -1,0 +1,45 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-color: #f3f4f6;
+}
+.highlight {
+  background-color: #fecaca;
+  color: #dc2626;
+  font-weight: 500;
+  border-radius: 0.25rem;
+  padding: 0 1px;
+}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: "Inter", sans-serif;
+}
+.tab-button {
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  color: #6b7280;
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  transition: all 0.2s ease;
+}
+.tab-button.active {
+  background-color: #cbd5e1;
+  color: #1f2937;
+  border-color: #9ca3af;
+}
+.tab-button:hover:not(.active) {
+  background-color: #e5e7eb;
+}
+#back-to-top-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: #4f46e5;
+  color: white;
+  padding: 0.75rem 1rem;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  z-index: 1000;
+}
